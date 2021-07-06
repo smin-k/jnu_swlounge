@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: "5344"
+    url: "jdbc:mysql://localhost/swlounge?serverTimezone=UTC"
+    driver-class-name: "com.mysql.cj.jdbc.Driver"
+    username: "root"
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
